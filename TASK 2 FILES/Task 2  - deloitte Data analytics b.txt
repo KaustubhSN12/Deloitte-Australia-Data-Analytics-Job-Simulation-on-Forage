@@ -1,0 +1,83 @@
+Task 2  - deloitte Data analytics by Forage
+=================
+
+page 1
+
+
+Task overview
+What you'll learn
+How to help a client draw conclusions from data
+What you'll do
+Add a column to classify data in an Excel sheet
+
+
+=================
+
+page 2
+
+Here is the background information on your task
+After a worrisome number of internal complaints about gender inequality in terms of salary, Daikibo Industrials wants us to help them investigate.
+
+The Forensic Tech team has built an algorithm to quantify “level of gender pay equality” for most job roles within the company, in all company locations. Our Forensics lead thinks it would be a great idea for you to finish the job.
+
+======================
+
+page 3
+
+Here is your task
+We have processed all data on employee compensation and generated an Excel file (Equality Table.xlsx, available in the Resources) containing 3 columns:
+
+Factory
+Job Role
+Equality Score (integer; ranging between -100 and +100; 0 is ideal)
+Here is your task:
+
+Create a 4th column (Equality class), classifying the equality score into 3 types:
+Fair (+-10)
+Unfair (<-10 AND >10)
+Highly Discriminative (<-20 AND >20)
+Examples:
+
+10 → Fair
+-9 → Unfair
+-30 → Highly Discriminative
+Please find the Equality Table you need to edit in the resources below. When you are done, upload the edited version of the file.
+
+ 
+
+Here are some resources to help you
+
+Equality table.csv
+
+Solution:
+==========
+
+✅ Step-by-Step in Excel
+
+Open Equality Table.xlsx.
+
+In Column D, add a new column header: Equality Class.
+
+In cell D2, paste this formula:
+
+
+=IF(ABS(C2)>20, "Highly Discriminative", IF(ABS(C2)>10, "Unfair", "Fair"))
+🔍 This formula checks:
+
+If absolute score is greater than 20 → Highly Discriminative
+
+Else if greater than 10 → Unfair
+
+Else → Fair
+
+Drag the formula down to fill all rows in the dataset.
+
+Double-check a few rows to make sure the classification looks correct.
+
+Save the edited file with the same or a new name like Equality Table - Updated.xlsx
+===================
+
+page 4
+
+
+
