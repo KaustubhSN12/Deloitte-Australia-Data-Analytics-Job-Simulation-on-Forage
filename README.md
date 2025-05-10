@@ -3,7 +3,7 @@
 
 # 📊 Daikibo Analytics Job Simulation – Step-by-Step Guide
 
-Welcome to the Daikibo Analytics Job Simulation. This guide will help you navigate and solve both tasks using **Tableau** and **Excel**, providing detailed instructions, helpful links, sample commands, and expected outcomes.
+Welcome to the Deloitte-Australia-Data-Analytics-Job-Simulation-on-Forage . This guide will help you navigate and solve both tasks using **Tableau** and **Excel**, providing detailed instructions, helpful links, sample commands, and expected outcomes.
 
 ---
 
