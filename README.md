@@ -87,92 +87,67 @@ Use telemetry data to visualize machine downtime and answer:
 
 ---
 
-## ✅ Task 2: Gender Pay Equality Analysis in Excel
-
-### 🎯 Objective
-
-Classify job roles based on the level of **gender pay equality** using provided scores.
-
----
+### ✅ Task 2: Create Equality Classification in Excel
+🎯 Objective
+Generate a new column Equality Class based on the values in the Equality Score column.
 
 ### 🧰 Tools Required
-
-* Microsoft Excel or Google Sheets
-
----
+Microsoft Excel or Google Sheets
 
 ### 🔧 Step-by-Step Instructions
+1. Open the Dataset
+File: Equality Table.xlsx (or .csv)
 
-#### 1. **Download the Dataset**
+### Open in Excel
 
-* File: `Equality Table.xlsx` or `Equality Table.csv`
-* Open it in Excel.
+2. Add a New Column
+Column D → Header: Equality Class
 
-#### 2. **Add a New Column**
+In cell D2, paste:
 
-* Insert a new column: `Equality Class` in **Column D**
-* In cell **D2**, paste this formula:
-
-```excel
 =IF(ABS(C2)>20, "Highly Discriminative", IF(ABS(C2)>10, "Unfair", "Fair"))
-```
 
-#### 3. **Apply Formula to All Rows**
+3. Drag Formula Down Fill the formula through all rows
 
-* Drag the formula from D2 down to fill all rows.
-* Ensure formatting and results look correct.
+### 4. Validate a Few Rows
+   
+-25 → Highly Discriminative
 
-#### 4. **Validate Results**
+-15 → Unfair
 
-* ✅ Score `10` → "Fair"
-* ✅ Score `-9` → "Fair"
-* ✅ Score `-30` → "Highly Discriminative"
+4 → Fair
 
-#### 5. **Save Your Work**
+### 5. Save Your File
+Save as: Equality Table - Updated.xlsx
 
-* Save as: `Equality Table - Updated.xlsx`
+### 🧾 Example Data Preview
+Factory	Job Role	Equality Score	Equality Class
+Daikibo Meiyo	C-Level	-25	Highly Discriminative
+Daikibo Seiko	Manager	-21	Highly Discriminative
+Daikibo Shenzhen	Engineer	4	Fair
 
----
+### ✅ Confirm your file looks like this before submitting.
 
-### 💡 Tips
+### 📥 Resources
+Tableau Trial
+Excel Online
 
-* **ABS()** ensures positive comparison for both negative and positive scores.
-* Always double-check your logic with a few manual calculations.
 
----
+### 📌 Submission Checklist
+Task	Requirement	Done
+Task 1	Dashboard created in Tableau	✅
+Task 1	Screenshot taken of filtered dashboard	✅
+Task 2	Excel formula applied	✅
+Task 2	File saved with Equality Class column	✅
 
-## 📥 Resources
+### 🙌 Credits & Connect
+This guide was created by Kaustubh Narayankar, an aspiring data analyst dedicated to helping others break into the data field.
 
-* Tableau Trial: [https://www.tableau.com/products/trial](https://www.tableau.com/products/trial)
-* Excel Online: [https://office.live.com/start/Excel.aspx](https://office.live.com/start/Excel.aspx)
-* Sample Equality Table: *(Attach or provide path)*
-* Telemetry JSON file: *(Attach or provide path)*
+### 📍 Explore more:
 
----
+🔗 GitHub: https://github.com/KaustubhSN12
 
-## 📌 Submission Checklist
+💼 LinkedIn: [https://linkedin.com/in/yourusername](https://www.linkedin.com/in/kaustubh-narayankar-6651a9249/)
 
-| Task   | Requirement                            | Done |
-| ------ | -------------------------------------- | ---- |
-| Task 1 | Dashboard created in Tableau           | ✅    |
-| Task 1 | Screenshot taken of filtered dashboard | ✅    |
-| Task 2 | Excel formula applied                  | ✅    |
-| Task 2 | File saved with Equality Class column  | ✅    |
+⭐ If you found this guide helpful, please star the repo and follow for more analytics walkthroughs.
 
----
-
-## 🙌 Credits & Connect
-
-This walkthrough was created and maintained by **\[Your Name]** – a passionate data analyst and problem solver!
-
-🔗 **Check out more projects:**
-
-* [GitHub Portfolio](https://github.com/yourusername)
-* [LinkedIn Profile](https://www.linkedin.com/in/yourusername)
-* [Other Repositories](https://github.com/yourusername?tab=repositories)
-
-🎯 If this guide helped you, consider starring ⭐ the repository and following for more walkthroughs and analytics content.
-
----
-
-Let me know your preferred name, GitHub URL, and LinkedIn handle, and I’ll insert them into the final markdown file for you. Would you like me to generate a downloadable `.md` file next?
