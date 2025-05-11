@@ -170,6 +170,8 @@ Save as: Equality Table - Updated.xlsx
 * Task 2	Excel formula applied	✅
 * Task 2	File saved with Equality Class column	✅
 
+### 📄 [Click here to view my Certificate](https://github.com/KaustubhSN12/Deloitte-Australia-Data-Analytics-Job-Simulation-on-Forage/blob/main/Certificate.pdf)
+
 ### 🙌 Credits & Connect
 This guide was created by Kaustubh Narayankar, an aspiring data analyst dedicated to helping others break into the data field.
 
