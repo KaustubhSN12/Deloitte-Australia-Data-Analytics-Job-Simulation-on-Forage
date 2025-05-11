@@ -105,7 +105,9 @@ Column D → Header: Equality Class
 
 In cell D2, paste:
 
+```plaintext
 =IF(ABS(C2)>20, "Highly Discriminative", IF(ABS(C2)>10, "Unfair", "Fair"))
+```
 
 3. Drag Formula Down Fill the formula through all rows
 
