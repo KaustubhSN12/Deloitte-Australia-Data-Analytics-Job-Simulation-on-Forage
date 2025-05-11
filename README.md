@@ -88,29 +88,30 @@ Use telemetry data to visualize machine downtime and answer:
 ---
 ### What is the outcome of the Analysis?
 
-## 📊 Dashboard Insights: Daikibo Factory Downtime Analysis
-1. Factory-wise Downtime Analysis
-Daikibo-Factory-Seiko reported the highest downtime with 480 units of unhealthy duration, indicating major operational issues or maintenance lapses.
+## 📊 Downtime Analysis Summary
 
-Daikibo-Shenzhen follows closely with 420 units, suggesting significant productivity impact.
+### 🔍 Key Findings:
 
-Daikibo-Factory-Meiyo recorded a moderate downtime of 110 units, while Daikibo-Berlin showed minimal disruption with just 20 units—reflecting strong operational efficiency at the Berlin plant.
+1. **Factory-Level Downtime**:
 
-2. Device Type Downtime Analysis
-The Laser Welder is the most problematic device, contributing to 480 units of downtime.
+   * **Daikibo-Factory-Seiko** experienced the highest downtime with **480 unhealthy units**, indicating significant production issues.
+   * **Daikibo-Shenzhen** followed with **420 units**, showing potential maintenance gaps.
+   * **Daikibo-Factory-Meiyo** showed moderate downtime at **110 units**.
+   * **Daikibo-Berlin** had the **least downtime (20 units)**, suggesting strong equipment health and operational efficiency.
 
-The Laser Cutter also posed a substantial issue, causing 430 units of downtime.
+2. **Device-Level Downtime**:
 
-Other devices like Heavy Duty Drill (70) and Furnace (20) show moderate issues, while devices such as Metal Press and Air Wrench had no recorded downtime, indicating reliability.
+   * **Laser Welder** had the highest downtime among all devices (**480 units**), followed closely by the **Laser Cutter (430 units)**.
+   * Other devices such as **Heavy Duty Drill (70 units)** and **Furnace (20 units)** contributed moderately.
+   * Devices like **Metal Press** and **Air Wrench** reported **zero downtime**, highlighting their reliability.
 
-CNC, Conveyor Belt, and Spot Welder each contributed 10 units, suggesting minor but present inefficiencies.
+### 📌 Conclusion:
 
-🛠️ Actionable Recommendations
-Immediate attention is needed on Laser Welder and Laser Cutter devices—consider root cause analysis, preventive maintenance, or replacement strategies.
+* The major contributors to downtime are specific devices like **Laser Welder** and **Laser Cutter**, and factories such as **Seiko** and **Shenzhen**.
+* These insights can guide **preventive maintenance** planning, **equipment upgrades**, and **process optimization** in the most affected areas.
+* Learning from **Berlin's efficiency** could help improve performance across other locations.
 
-Daikibo-Factory-Seiko should undergo a comprehensive operational audit to address persistent downtime.
-
-Learnings from Daikibo-Berlin’s efficient practices can be replicated across other plants to improve performance.
+---
 
 
 
