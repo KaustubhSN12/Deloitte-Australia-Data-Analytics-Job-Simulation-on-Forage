@@ -113,34 +113,34 @@ In cell D2, paste:
 
 ### 4. Validate a Few Rows
    
--25 → Highly Discriminative
+* -25 → Highly Discriminative
 
--15 → Unfair
+* -15 → Unfair
 
-4 → Fair
+*  → Fair
 
 ### 5. Save Your File
 Save as: Equality Table - Updated.xlsx
 
 ### 🧾 Example Data Preview
-Factory	Job Role	Equality Score	Equality Class
-Daikibo Meiyo	C-Level	-25	Highly Discriminative
-Daikibo Seiko	Manager	-21	Highly Discriminative
-Daikibo Shenzhen	Engineer	4	Fair
+* Factory	Job Role	Equality Score	Equality Class
+* Daikibo Meiyo	C-Level	-25	Highly Discriminative
+* Daikibo Seiko	Manager	-21	Highly Discriminative
+* Daikibo Shenzhen	Engineer	4	Fair
 
 ### ✅ Confirm your file looks like this before submitting.
 
 ### 📥 Resources
-Tableau Trial
-Excel Online
+* Tableau Trial
+* Excel Online
 
 
 ### 📌 Submission Checklist
-Task	Requirement	Done
-Task 1	Dashboard created in Tableau	✅
-Task 1	Screenshot taken of filtered dashboard	✅
-Task 2	Excel formula applied	✅
-Task 2	File saved with Equality Class column	✅
+* Task	Requirement	Done
+* Task 1	Dashboard created in Tableau	✅
+* Task 1	Screenshot taken of filtered dashboard	✅
+* Task 2	Excel formula applied	✅
+* Task 2	File saved with Equality Class column	✅
 
 ### 🙌 Credits & Connect
 This guide was created by Kaustubh Narayankar, an aspiring data analyst dedicated to helping others break into the data field.
