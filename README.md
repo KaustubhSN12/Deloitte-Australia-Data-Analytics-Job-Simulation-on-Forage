@@ -86,6 +86,33 @@ Use telemetry data to visualize machine downtime and answer:
 > ![Example Dashboard Screenshot](https://i.imgur.com/ZkdCv0L.png) *![output-dashboard](https://github.com/user-attachments/assets/ee52e6dc-ea27-4448-b645-afa881d44f87)*
 
 ---
+### What is the outcome of the Analysis?
+
+## 📊 Dashboard Insights: Daikibo Factory Downtime Analysis
+1. Factory-wise Downtime Analysis
+Daikibo-Factory-Seiko reported the highest downtime with 480 units of unhealthy duration, indicating major operational issues or maintenance lapses.
+
+Daikibo-Shenzhen follows closely with 420 units, suggesting significant productivity impact.
+
+Daikibo-Factory-Meiyo recorded a moderate downtime of 110 units, while Daikibo-Berlin showed minimal disruption with just 20 units—reflecting strong operational efficiency at the Berlin plant.
+
+2. Device Type Downtime Analysis
+The Laser Welder is the most problematic device, contributing to 480 units of downtime.
+
+The Laser Cutter also posed a substantial issue, causing 430 units of downtime.
+
+Other devices like Heavy Duty Drill (70) and Furnace (20) show moderate issues, while devices such as Metal Press and Air Wrench had no recorded downtime, indicating reliability.
+
+CNC, Conveyor Belt, and Spot Welder each contributed 10 units, suggesting minor but present inefficiencies.
+
+🛠️ Actionable Recommendations
+Immediate attention is needed on Laser Welder and Laser Cutter devices—consider root cause analysis, preventive maintenance, or replacement strategies.
+
+Daikibo-Factory-Seiko should undergo a comprehensive operational audit to address persistent downtime.
+
+Learnings from Daikibo-Berlin’s efficient practices can be replicated across other plants to improve performance.
+
+
 
 ### ✅ Task 2: Create Equality Classification in Excel
 🎯 Objective
